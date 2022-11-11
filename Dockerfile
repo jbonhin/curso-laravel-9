@@ -1,6 +1,6 @@
-FROM php:8.1-fpm
+FROM php:8.1.1-fpm
 
-# set your user name, ex: user=bernardo
+# Arguments
 ARG user=carlos
 ARG uid=1000
 
